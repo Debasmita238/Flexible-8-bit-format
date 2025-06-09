@@ -1,1 +1,0 @@
-mim download mmdet --config yolov3_mobilenetv2_320_300e_coco --dest .
