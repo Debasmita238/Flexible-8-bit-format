@@ -1,1 +1,0 @@
-mim download mmcls --config densenet121_4xb256_in1k --dest .

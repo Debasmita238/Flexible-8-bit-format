@@ -1,1 +1,0 @@
-mim download mmcls --config resnet50_8xb32_in1k --dest .
