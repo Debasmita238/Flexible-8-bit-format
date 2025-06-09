@@ -1,0 +1,15 @@
+config/mmcls/resnet50_8xb32_in1k/resnet50_8xb32_in1k.py-2025-06-06_16-46-13
+config: Namespace(a_scale_method='max', abit=8, afmt='stpu', anorm=2.0, batch_size=32, cali_mode='batch', cali_num=256, ckpt='', data_path='data/', dataset='mmcls', enable_int=True, fast=False, fold_bn=True, gpu_id=0, limited=False, logger=True, mo4w=True, model_label='config/mmcls/resnet50_8xb32_in1k/resnet50_8xb32_in1k.py-2025-06-06_16-46-13', model_zoo='mmcls', net='config/mmcls/resnet50_8xb32_in1k/resnet50_8xb32_in1k.py', quant_all=False, quant_pos='out', seed=2021, skip_fptest=False, test_mode='acc', test_path='data/', w_scale_method='max', wbit=8, wfmt='stpu', wnorm=2.0)
+Use no4w mode
+Traceback (most recent call last):
+  File "main.py", line 90, in <module>
+    from test import run_train
+  File "C:\Users\VLSI_Admin_2\Desktop\project\Flexible-8bit-Format\test.py", line 4, in <module>
+    from utils.metric import test
+  File "C:\Users\VLSI_Admin_2\Desktop\project\Flexible-8bit-Format\utils\metric.py", line 5, in <module>
+    from flint.quantization import * 
+  File "C:\Users\VLSI_Admin_2\Desktop\project\Flexible-8bit-Format\flint\quantization\__init__.py", line 2, in <module>
+    from flint.quantization.quant_func.quant_func import *
+  File "C:\Users\VLSI_Admin_2\Desktop\project\Flexible-8bit-Format\flint\quantization\quant_func\quant_func.py", line 6, in <module>
+    from qtorch import _backend
+ImportError: cannot import name '_backend' from 'qtorch' (unknown location)
